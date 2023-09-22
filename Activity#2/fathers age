@@ -1,0 +1,8 @@
+fname = input("Enter Father's name: ")
+bplace = input("Enter Father's birthplace: ")
+bmonth = input("Enter Father's birthmonth: ")
+bday = input("Enter Father's birthday: ")
+byr = int(input("Enter Father's birthyear: "))
+age = (2023 - byr)
+print (fname, end="",)
+print ("'s age is", age)
