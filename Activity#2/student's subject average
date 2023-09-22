@@ -1,0 +1,14 @@
+name = input("Enter Student's name: ")
+eng = int(input("Enter grades in English: "))
+fil = int(input("Enter grades in Filipino: "))
+sci = int(input("Enter grades in Science: "))
+mat = int(input("Enter grades in Math: "))
+apa = int(input("Enter grades in Araling Panlipunan: "))
+phe = int(input("Enter grades in Physical Education: "))
+
+total = ( eng+fil+sci+mat+apa+phe )
+ave = (total/6)
+
+print(name, end= "",)
+print("'s Grades")
+print(ave)
