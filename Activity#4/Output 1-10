@@ -1,0 +1,42 @@
+#output1
+print("Hello Peeps!")
+#output2
+print("This is from a line of code")
+#output3
+print("5")
+num = 5.5
+print(num)
+print("Hello,World!")
+#output 1
+val1 = 35
+val2 = 44
+print(val1 + val2)
+#output 2 
+a = 7
+print(5*a)
+#output 3 
+a = 2
+b = 11
+c = 0
+a = a*2
+b = b +(c*3)
+c = a*b
+print(c)
+#output 4
+val1 = int(input("Input 1st number: "))
+val2 = int(input("Input 2nd number: "))
+print("The Sum is: ", end="",)
+print(val1 + val2)
+#output 5
+squared = 3**2
+cubed = 3**3
+print("Squared = ",squared)
+print("Cubed = ",cubed)
+#output 6
+Name = ("Gly")
+print("Your name is", Name)
+#output 7
+Apple_price = 20
+orange_price = 20
+if Apple_price==orange_price :
+    print("True")
