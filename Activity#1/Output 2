@@ -1,0 +1,4 @@
+cyear = int(input("Enter Current Year: "))
+byear = int(input("Enter your Birthyear: "))
+age = cyear - byear
+print ("Your current age is",age)
