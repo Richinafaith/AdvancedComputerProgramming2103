@@ -1,0 +1,4 @@
+n = input("Enter your Name: ")
+a = int(input("Enter your Age: "))
+ad = input("Enter your Address: ")
+print("Your Name is",n , a , "years old," , "and you live in", ad)
